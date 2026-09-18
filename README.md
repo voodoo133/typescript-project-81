@@ -2,6 +2,10 @@
 
 [![hexlet-check](https://github.com/voodoo133/typescript-project-81/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/voodoo133/typescript-project-81/actions)
 
+[![CI](https://github.com/voodoo133/typescript-project-81/actions/workflows/ci.yml/badge.svg)](https://github.com/voodoo133/typescript-project-81/actions/workflows/ci.yml)
+
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=voodoo133_typescript-project-81&metric=coverage)](https://sonarcloud.io/summary/new_code?id=voodoo133_typescript-project-81)
+
 Библиотека, с помощью которой удобно создавать формы в шаблонах сайтов. Она заметно сокращает код описания формы за счет автоматической обработки ошибок и различных контролов.
 
 Учебный проект Хекслета: https://ru.hexlet.io/programs/typescript
@@ -9,7 +13,7 @@
 
 ## Стек
 
-- JavaScript
+- TypeScript
 
 ## Установка
 

@@ -1,0 +1,27 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "[![hexlet-check](https://github.com/voodoo133/typescript-project-81/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/voodoo133/typescript-project-81/actions)",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf ./dist && tsc",
+    "start": "node dist/src/index.js",
+    "start:dev": "tsx ./src/index.ts",
+    "lint": "eslint .",
+    "lint-fix": "eslint . --fix",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test-coverage": "vitest run --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@vitest/coverage-v8": "^5.0.1",
+    "eslint": "^10.10.0",
+    "tsx": "^4.23.13",
+    "typescript": "~6.0",
+    "typescript-eslint": "^8.70.0",
+    "vitest": "^5.0.1"
+  }
+}
